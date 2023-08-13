@@ -3,6 +3,43 @@
 <html>
 
 <head>
+	<form method="post">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" placeholder="Name" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="Email" required>
+    <br>
+    <label for="gender">Gender</label>
+    <label for="gender">Male:</label>
+    <input type="radio" name="gender" id="gender_m" required>
+    <label for="gender">Female:</label>
+    <input type="radio" name="gender" id="gender_f" required>
+    <br>
+    <label for="brands">Car Brands:</label>
+    <select name="brands" id="cars" required>
+        <option value="bmw">BMW</option>
+        <option value="TATA">TATA</option>
+        <option value="audi">Audi</option>
+
+    </select>
+    <br>
+    <label for="age">Age:</label>
+    <input type="number" name="age" id="age" required>
+    <br>
+    <label for="dob">DOB:</label>
+    <input type="date" name="dod" id="dob" required>
+    <br>
+    <label for="number">Phone Number:</label>
+    <input type="tel" name="number" id="tel" required>
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" required>
+    <br>
+    <label for="box">I agree to the TOS</label>
+    <input type="checkbox" name="box" id="tos" required>
+    <button type="submit">Submit</button>
+   </form>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
