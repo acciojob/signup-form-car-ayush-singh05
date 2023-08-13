@@ -16,8 +16,9 @@
     <label for="gender">Female:</label>
     <input type="radio" name="gender" id="gender_f" required>
     <br>
-    <label for="brands">Car Brands:</label>
-    <select name="brands" id="cars" required>
+    <label for="cars">Car Brands:</label>
+    <select name="cars" id="cars"  required>
+		 <option value="bmw">Please choose an option</option>
         <option value="bmw">BMW</option>
         <option value="TATA">TATA</option>
         <option value="audi">Audi</option>
@@ -25,19 +26,19 @@
     </select>
     <br>
     <label for="age">Age:</label>
-    <input type="number" name="age" id="age" required>
+    <input type="number" name="age" id="age" placeholder="age" required>
     <br>
     <label for="dob">DOB:</label>
     <input type="date" name="dod" id="dob" required>
     <br>
-    <label for="number">Phone Number:</label>
-    <input type="tel" name="number" id="tel" required>
+    <label for="tel">Phone Number:</label>
+    <input type="tel" name="tel" id="tel" placeholder="xxx-xxx-xxxx" required>
     <br>
     <label for="password">Password:</label>
-    <input type="password" name="password" id="password" required>
+    <input type="password" name="password" id="password" placeholder="Password" required>
     <br>
-    <label for="box">I agree to the TOS</label>
-    <input type="checkbox" name="box" id="tos" required>
+    <label for="tos">I agree to the TOS</label>
+    <input type="checkbox" name="tos" id="tos" required>
     <button type="submit">Submit</button>
    </form>
 	<link rel="stylesheet" href="styles.css">
